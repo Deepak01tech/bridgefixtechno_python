@@ -9,3 +9,6 @@ class smartphone:
 
 my_phone = smartphone("Apple", "iPhone 13", 999)
 print(my_phone.show_details())   
+
+del my_phone
+print(my_phone.show_details())  # This will raise an error since my_phone has been
