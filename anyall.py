@@ -1,0 +1,6 @@
+# print(all([]))
+# print(any([]))
+print(all([1,2,3]))
+print(any([0,0,0,1]))
+print(all([1,2,3,0]))
+print(any([0,0,0]))

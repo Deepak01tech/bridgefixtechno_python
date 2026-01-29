@@ -32,10 +32,15 @@ for fib in fibonacci(7):
 
 print("-----")
 
-g=(x*x for x in range(1,5,2))
-# print(g)
-print(list(g))
+g=(x*x for x in range(5))
 
+
+
+print(next(g))  # 0
+print(next(g))  # 1
+print(next(g)) 
+
+print(list(g)) # [4, 9, 16]
 
 
 
