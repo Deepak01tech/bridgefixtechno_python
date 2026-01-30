@@ -40,7 +40,7 @@ print(next(g))  # 0
 print(next(g))  # 1
 print(next(g)) 
 
-print(list(g)) # [4, 9, 16]
+print(list(g)) # [4, 9, 16] 
 
 
 
